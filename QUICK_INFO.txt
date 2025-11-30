@@ -1,0 +1,34 @@
+=== SKYBLOCKNSSV - PROJEKT ZAKTUALIZOWANY ===
+
+DODANO Z Utils2.sk:
+
+✅ 13 nowych komend
+✅ 5 nowych managerów  
+✅ System Vote Party
+✅ System Coinflip
+✅ System Home
+✅ System Questów
+✅ Emerald Elevator
+✅ HelpOp, Gamma, GPerm, StaffChat
+
+STATYSTYKI:
+- 42 pliki Java
+- 19 komend
+- 9 managerów
+- 100% konfiguracja PO POLSKU
+
+PLIKI:
+- pom.xml (Maven)
+- plugin.yml (komendy + aliasy)
+- config.yml (pełna konfiguracja PL)
+- README.md (dokumentacja)
+- CHANGELOG.md (co dodano)
+- FEATURES.md (lista funkcji)
+- INSTALL.md (jak zainstalować)
+
+KOMPILACJA:
+1. Otwórz w IntelliJ IDEA
+2. Maven -> package
+3. target/SkyblocknNSSV-1.0.0.jar
+
+Wszystko gotowe! 🎮

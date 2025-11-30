@@ -1,0 +1,73 @@
+================================================================================
+UTILS5.SK - ANALIZA I PLAN IMPLEMENTACJI
+================================================================================
+
+SYSTEMY W UTILS5.SK:
+====================
+
+1. **PET SYSTEM (kompleksowy):**
+   - Pet menu GUI (/pet)
+   - Pet spawning (display entities: item + text)
+   - Pet leveling (exp, level 1-100, rarity 1-6)
+   - Pet stats (Exp multiplier, Gems multiplier)
+   - Pet formatting (kolory według rarity, lore, progress bar)
+   - Pet tracking (follow gracza co 4 ticki)
+   - Pet particles (crit particles)
+   - Pet respawn po śmierci/world change
+   - Pet despawn przy quit
+
+2. **ADMIN PET SYSTEM:**
+   - /adminpet create/delete/icon/exp/gems/give/egg/list
+   - Pet creation/deletion
+   - Pet stats configuration
+   - Pet giving
+
+3. **MAGIC EGG SYSTEM:**
+   - Pet Egg item
+   - Hatching animation (spawn, sounds, particles)
+   - Random pet generation
+   - Ender dragon animation effect
+
+4. **PORTAL MANAGEMENT:**
+   - Portal breaking protection
+   - Remove portal GUI (confirm/cancel)
+   - Only island owner can remove
+
+FUNKCJE DO ZAIMPLEMENTOWANIA:
+==============================
+
+MANAGERS:
+- PetManager.java (~400 linii)
+  * petMenu(player)
+  * spawnPet(player, newLevel)
+  * despawnPet(player)
+  * petFormatter(item)
+  * addPetExp(player)
+  * givePet(player, name, level, rarity)
+  * petTracking loop (co 4 ticki)
+
+COMMANDS:
+- PetCommand.java (~30 linii)
+- AdminPetCommand.java (~200 linii)
+
+LISTENERS:
+- PetGUIListener.java (~100 linii)
+- PetInteractListener.java (~80 linii)
+- PetEggListener.java (~150 linii)
+- PortalListener.java (~100 linii)
+
+DATA CLASSES:
+- PetData.java (~50 linii)
+  * name, level, exp, rarity, customID
+  * expMultiplier, gemsMultiplier
+
+UTILITIES:
+- PetAnimationUtil.java (~150 linii)
+  * eggHatchAnimation()
+  * petLevelUpAnimation()
+  * petParticles()
+
+TOTAL: ~1260 linii kodu Java
+
+ROZPOCZYNAM IMPLEMENTACJĘ...
+================================================================================

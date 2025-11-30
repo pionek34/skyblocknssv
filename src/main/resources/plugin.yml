@@ -1,0 +1,168 @@
+name: SkyblocknNSSV
+version: '${project.version}'
+main: pl.nssv.skyblock.SkyblocknNSSV
+api-version: '1.20'
+author: pvsky
+description: Complete Skyblock Utils Plugin
+softdepend: [PlaceholderAPI, Vault, LuckPerms]
+
+commands:
+  xqeffects:
+    description: Zarzadzaj hologramami
+    usage: /xqeffects [holo|killholo]
+  emoji:
+    description: Wyswietl emoji
+    aliases: [emotes, emote]
+  job:
+    description: Menu prac
+    aliases: [jobs, miner, builder, farmer, lumberjack, crafter, fisherman, hunter, enchanter, alchemist]
+  mute:
+    description: Wycisz gracza
+    permission: gens.mute
+  unmute:
+    description: Odcisz gracza
+    permission: gens.mute
+  chatgame:
+    description: Wystartuj gre na chacie
+    permission: '*'
+  vote:
+    description: Link do głosowania
+  discord:
+    description: Link do Discorda
+  keys:
+    description: Link do sklepu
+    aliases: [key]
+  votereward:
+    description: Daj nagrode za głos
+    permission: '*'
+  coinflip:
+    description: System coinflip
+  home:
+    description: Teleportacja do domu
+    aliases: [homes]
+  sethome:
+    description: Ustaw dom
+    aliases: [createhome]
+  delhome:
+    description: Usuń dom
+    aliases: [deletehome]
+  helpop:
+    description: Poproś o pomoc
+  gamma:
+    description: Włącz/wyłącz gamma
+    permission: gamma.use
+  gperm:
+    description: Nadaj uprawnienia grupom
+    permission: '*'
+  staffchat:
+    description: Chat dla administracji
+    aliases: [sc]
+    permission: staffchat.use
+  quests:
+    description: Menu questów
+  clan:
+    description: System klanów
+  event:
+    description: Eventy globalne
+    permission: '*'
+  upgrades:
+    description: Ulepszenia wyspy
+  kit:
+    description: System kitów
+    aliases: [claimkit]
+  kits:
+    description: System kitów
+  rank:
+    description: Rangi VIP
+    aliases: [ranks, gold, diamond, emerald, netherite]
+  store:
+    description: Link do sklepu
+    aliases: [webstore]
+  heal:
+    description: Ulecz się
+    permission: essentials.heal
+  level:
+    description: System poziomów
+  nick:
+    description: Customizacja czatu
+  top:
+    description: Teleportacja na top
+    aliases: [leaderboard, top10]
+  
+  # Nowe komendy z Utils3/Utils4
+  daily:
+    description: Menu misji codziennych
+    aliases: [missions, weekly, hourly]
+  globalfly:
+    description: System Global Fly
+  afk:
+    description: Menu AFK Area
+  toolskins:
+    description: Skórki narzędzi
+    aliases: [toolskin, skins]
+  icon:
+    description: Ikony przed nickiem
+    aliases: [icons, prefix]
+  fly:
+    description: Włącz/wyłącz latanie
+    aliases: [flight]
+  
+  # Nowe komendy z Utils5
+  pet:
+    description: Pet menu
+    aliases: [pets]
+  adminpet:
+    description: Admin pet management
+    permission: '*'
+  
+  # Komendy Structure.sk
+  detectislandcreate:
+    description: Detect island creation
+    permission: '*'
+  genisland:
+    description: Generate island with Jerry
+  setwarp:
+    description: Set warp location
+    permission: '*'
+  delwarp:
+    description: Delete warp
+    permission: '*'
+  warp:
+    description: Teleport to warp
+    aliases: [warps]
+  bank:
+    description: Island bank
+    aliases: [isbank]
+  help:
+    description: Help menu
+  panel:
+    description: Island panel
+    aliases: [islandpanel, ispanel]
+  
+  # Komendy Skyblock.sk
+  spawn:
+    description: Teleport to spawn
+  setspawn:
+    description: Set spawn location
+    permission: '*'
+  
+  # Komendy Minions.sk  
+  minionsadmin:
+    description: Minion administration
+    aliases: [minionadmin]
+    permission: '*'
+  
+  # Komendy Dungeons.sk
+  dungeon:
+    description: Join the dungeon
+  dungeonadmin:
+    description: Dungeon administration
+    permission: '*'
+  
+  # Komendy Cinematic.sk i BossbarStats.sk
+  cinematic:
+    description: Cinematic editor
+    aliases: [ce, cin]
+    permission: '*'
+  tutorial:
+    description: Start tutorial cinematic

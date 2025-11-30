@@ -1,0 +1,263 @@
+# ============================================================================
+# NOWE WPISY DO CONFIG.YML - DODAJ DO ISTNIEJĄCEGO CONFIG.YML
+# ============================================================================
+
+# Utils3 - Fishing Minigame
+Utils3:
+  FishingTitle:
+    Check1: "&a{SEQUENCE}"
+    Check2: "&c{SEQUENCE}"
+    Check3: "&6{SEQUENCE}"
+  FishingSuccess: "&aSuccessfully caught a fish!"
+  FishingFailed: "&cFailed to catch the fish!"
+  FishingTimeout: "&cTime's up!"
+
+# Utils3 - Missions
+Utils3:
+  MissionStart: "&aStarted {MISSION} mission!"
+  MissionInfo: "&7Your tasks:"
+  MissionCompleted: "&aCompleted mission {MISSION}!"
+  MissionCompleted2: "&7Rewards:"
+  MissionRewMoney: "$"
+  MissionRewGems: "Gems"
+  MissionRewExp: "EXP"
+  CompleteToReceive: "&cComplete all tasks to receive rewards!"
+  
+# Utils3 - Global Fly
+Utils3:
+  GlobalFlyCost: 100000
+  GlobalFlyTitle: "&6&lGLOBAL FLY"
+  GlobalFlyStart:
+    1: "&aGlobal fly activated!"
+    2: "&aDuration: 30 minutes"
+    3: "&7Everyone can fly now!"
+  GlobalFlyEnd:
+    1: "&cGlobal fly ended!"
+    2: "&cFly disabled for all players"
+  DonateTitle: "&7Donate for Global Fly"
+  GlobalFlyEnabled: "&aGLOBAL FLY ACTIVE"
+  SuccessDeposit: "&aDeposited money for global fly!"
+
+# Utils3 - Magic Feather
+Utils3:
+  MagicFeatherActivated: "&aActivated fly for 30 minutes!"
+  MagicFeatherExpired: "&cYour fly time has expired!"
+
+# Utils3 - Events
+Utils3:
+  Event:
+    Duration: 600
+    Header: "&6&lEVENT STARTED: {EVENT}"
+    Bottom: "&7Duration: {TIME}"
+    StartActionBar: "&6EVENT: {EVENT} &7({TIME})"
+    End: "&cEvent ended: {EVENT}"
+    EndActionBar: "&cEvent ended: {EVENT}"
+    DoubleXP:
+      1: "&aDouble XP enabled!"
+      2: "&7Earn 2x experience for 10 minutes!"
+    JobBoost:
+      1: "&aJob Boost enabled!"
+      2: "&7Earn 1.5x money from jobs!"
+  EventName:
+    DoubleXP: "&eDouble XP"
+    DoubleCaveDrop: "&eCave Drop Boost"
+    MinionBoost: "&eMinion Boost"
+    JobBoost: "&eJob Boost"
+    MinutesPrefix: "min"
+
+# Utils3 - Spawner/Hopper
+Utils3:
+  ReachedLimit: "&cReached limit! ({MAX})"
+  PlacedSpawner: "&aPlaced spawner! ({CURRENT}/{MAX})"
+  PlacedHopper: "&aPlaced hopper! ({CURRENT}/{MAX})"
+  RemovedSpawner: "&cRemoved spawner! ({CURRENT}/{MAX})"
+  RemovedHopper: "&cRemoved hopper! ({CURRENT}/{MAX})"
+  ErrorOccurred: "&cAn error occurred!"
+
+# Utils4 - Island Animation
+Utils4:
+  IslandGeneration: "&aGenerating island..."
+  IslandProgress: "&7Progress: {PERCENT}%"
+  IslandDone: "&aIsland generated successfully!"
+  IslandDone2: "&a✓ Complete!"
+
+# Utils4 - AFK Area
+Utils4:
+  AFKBossbar: "&dAFK Area &7| {TIME} | {CHANCE}%"
+  AFKArea: "&d&lAFK AREA"
+  AFKArea2: "&7Time left: {TIME}"
+  AFKDrawn: "&aRewards drawn!"
+  AFKRewClaimed: "&aClaimed AFK rewards!"
+  NothingToClaim: "&cNothing to claim!"
+
+# Utils4 - Boosts
+Boosts:
+  Name: "&6&lBOOST PAD"
+  Spawned: "&eBoost pad spawned in the mine!"
+  Collected: "&aCollected boost!"
+  Locations: []
+
+# GUIS - Missions
+GUIS:
+  Missions:
+    Default: "&8Missions"
+    Slot1: "&eHourly"
+    Slot2: "&6Daily"
+    Slot3: "&cWeekly"
+    Hourly: "Hourly"
+    Daily: "Daily"
+    Weekly: "Weekly"
+    Lore:
+      - "&7Start missions to earn rewards!"
+    ClickToStart:
+      - "&eClick to start!"
+    Locked:
+      - "&cLocked for {COOLDOWN}"
+    CompleteToRec: "&7Complete all tasks to receive rewards"
+    Types:
+      - "Break {}"
+      - "Place {}"
+      - "Craft {}"
+      - "Consume {}"
+      - "Enchant {}"
+      - "Kill {}"
+      - "Catch {}"
+
+# GUIS - Global Fly
+GUIS:
+  GlobalFly:
+    Default: "&8Global Fly"
+    Slot1: "&e1,000$"
+    Slot2: "&e5,000$"
+    Slot3: "&e10,000$"
+    Slot4: "&e25,000$"
+    Slot5: "&e100,000$"
+
+# GUIS - AFK
+GUIS:
+  AFK:
+    Default: "&8AFK Area"
+    AFKArea: "&dAFK Area"
+    Rewards: "&6Your Rewards"
+    RewardsLore:
+      - "&7Collected from AFK:"
+    Informations: "&eChance Info"
+    ClaimName: "&6Claim All"
+    ClaimLore:
+      - "&7Click to claim:"
+    ClaimLore2:
+      - ""
+      - "&eClick to claim!"
+    Rew: "&f{TYPE}: {PREFIX}"
+    RewLore:
+      - "&7Amount: {PREFIX}"
+    Prefixes:
+      - "Money"
+      - "Gems"
+      - "Keys"
+
+# GUIS - Tool Skins
+GUIS:
+  ToolSkins:
+    Default: "&8Tool Skins"
+    Category:
+      Pickaxe: "&ePickaxe Skins"
+      Axe: "&6Axe Skins"
+      Shovel: "&7Shovel Skins"
+      Hoe: "&aHoe Skins"
+    Skin:
+      Fire:
+        Name: "&cFire Skin"
+        Price: 1000
+      Ice:
+        Name: "&bIce Skin"
+        Price: 1500
+      Lightning:
+        Name: "&eLightning Skin"
+        Price: 2000
+
+# GUIS - Icons
+GUIS:
+  Icons:
+    Default: "&8Icons"
+
+# GUIS - Prefixes
+GUIS:
+  Prefixes:
+    Default: "&8Prefixes"
+
+# GUIS - Nick
+GUIS:
+  Nick:
+    Default: "&8Nick Colors"
+
+# Global
+Global:
+  TooLowLevel: "&cYou need level {LEVEL} to use this!"
+  NotEnough: "&cYou don't have enough money!"
+
+
+# ============================================================================
+# UTILS5 - PET SYSTEM + PORTAL MANAGEMENT
+# ============================================================================
+
+Update11:
+  Pets:
+    Default: "&8Pet Menu"
+    Bedrock: "&8Pet Menu"
+    Info: "&aPet Info"
+    Summon:
+      - "&eClick to summon"
+    Despawn:
+      - "&cClick to despawn"
+    Convert: "&7Right click to convert to item"
+    Close: "&cClose"
+  
+  PetFormat:
+    Lore:
+      - "&7Your loyal companion"
+    FullName: "{COLOR}[Lvl {LEVEL}] {NAME}"
+    ExpMulti: "&bExp Multiplier: &e+{EXP}%"
+    GemsMulti: "&bGems Multiplier: &e+{GEMS}%"
+    Progress:
+      - "&7Progress to Level {LEVEL}:"
+      - "{BAR} &e{PERCENT}%"
+      - "&b{EXP} &7/ &3{REQ}"
+    MaxBar:
+      - "&7Progress:"
+      - "&5&m               &r&5★ &e100%"
+      - "&bMAX LEVEL"
+    AddToMenu: "&eClick to add to menu"
+    Common: "COMMON"
+    Uncommon: "UNCOMMON"
+    Rare: "RARE"
+    Epic: "EPIC"
+    Legendary: "LEGENDARY"
+    Exclusive: "EXCLUSIVE"
+  
+  Summoned: "&aSummoned {NAME}!"
+  Despawn: "&cDespawned {NAME}!"
+  AlreadyActive: "&cYou already have a pet active!"
+  PetLimit: "&cPet limit reached! (28 max)"
+  PetAddedtoMenu: "&aAdded {NAME} to pet menu!"
+  PetLevelup: "&e{PET} &aleveled up to &e{LEVEL}&a!"
+  PetLevelUpHolo:
+    - "&6&lLEVEL UP!"
+  
+  MagicEgg:
+    Name: "&d&lMagic Pet Egg"
+    Lore:
+      - "&7Right click to hatch"
+      - "&7a random pet!"
+
+Update12:
+  RemovePortalGUI: "&cRemove Portal?"
+  RemovePortal:
+    Confirm: "&aConfirm Removal"
+    Cancel: "&cCancel"
+    OnlyOwner: "&cOnly island owner can remove portals!"
+    Removed: "&aPortal removed!"
+    BlockAdjacent:
+      - "&cYou cannot break portal blocks!"
+      - "&7Right click portal to remove it"
+

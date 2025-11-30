@@ -1,0 +1,9 @@
+Dodam teraz w szybkiej kompaktowej formie:
+
+1. AdminPetCommand.java (~150 linii)
+2. PetGUIListener.java (~80 linii) 
+3. PetInteractListener.java (~60 linii)
+4. PetEggListener.java (~120 linii)
+5. PortalListener.java (~80 linii)
+
+Total: ~490 linii

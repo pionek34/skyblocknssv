@@ -1,0 +1,628 @@
+# SkyblocknNSSV Configuration File
+
+Global:
+  Motd1: "&6&lNSSV.PL &8&l| &7Skyblock"
+  Motd2: "&8&l» &eSerwer: &aOnline &8&l«"
+  ChatFormat: "{LEVEL} {ICON} {CLAN}{RANK} {NICK}&8: {MESSAGE}"
+  EnableVotes: true
+  VoteParty: 50
+  VoteLink: "https://nssv.pl/vote"
+  DiscordLink: "https://discord.gg/nssv"
+  StoreLink: "https://sklep.nssv.pl"
+  VoteReward: "basic|1"
+  IslandWorld: "bskyblock_world"
+  NotEnough: "&cNie masz wystarczająco pieniędzy!"
+
+Utils:
+  CommandList:
+    - "help"
+    - "skyblock"
+    - "is"
+    - "island"
+  
+  EmojiTitle: "&6&l━━━━━━━━ &e&lEMOJI &6&l━━━━━━━━"
+  Emoji1: " &7:tableflip: &8- &f(╯°□°)╯︵ ┻━┻"
+  Emoji2: " &7:shrug: &8- &f¯\\_( ͡❛ ͜ʖ ͡❛)_/¯"
+  Emoji3: " &7:lenny: &8- &f( ͡❛ ͜ʖ ͡❛)"
+  Emoji4: " &7:yes: &8- &f✔"
+  Emoji5: " &7:no: &8- &f❌"
+  Emoji6: " &7<3 &8- &f❤"
+  
+  CantUseCommand: "&cNie mozesz uzyc tej komendy!"
+  
+  Mute:
+    Select: "&cWybierz gracza do wyciszenia!"
+    Duration: "&cPodaj dlugosc wyciszenia! (np. 10m, 1h, 1d)"
+    IncorrectDuration: "&cNieprawidlowy czas! Uzyj: 10s, 10m, 1h, 1d"
+    AlreadyMuted: "&cTen gracz jest juz wyciszony!"
+    Success: "&aWyciszono gracza &e{PLAYER} &ana &e{TIME}&a!"
+    Muted: "&cZostales wyciszony na &e{TIME}&c!"
+    CurrentlyMuted: "&cJestes wyciszony! Pozostaly czas: &e{TIME}"
+    UnMuted: "&aZostales odciszony!"
+  
+  UnMute:
+    Select: "&cWybierz gracza do odciszenia!"
+    Success: "&aOdciszono gracza!"
+    NotMuted: "&cTen gracz nie jest wyciszony!"
+  
+  JobName:
+    Miner: "Gornik"
+    Builder: "Budowniczy"
+    Farmer: "Rolnik"
+    Lumberjack: "Drewal"
+    Crafter: "Rzemieslnik"
+    Fisherman: "Rybak"
+    Hunter: "Lowca"
+    Enchanter: "Zaklinacz"
+    Alchemist: "Alchemik"
+  
+  JobsLevelup: "&6&l✦ &e&lAWANSOWALES W PRACY: &6&l{JOB} &e&l✦"
+  JobsLevelupInfo: "&7Twoj poziom w pracy &e{JOB} &7wynosi teraz: &a{LEVEL}"
+  JobsLevelupInfo2: "&6Awansowales na poziom &e{LEVEL} &6w pracy &e{JOB}&6!"
+  JobRewards: "&7Otrzymales nagrody za awans!"
+  JobRewardsMoney: " &8• &6+{MONEY}$ &7za awans"
+  JobCoinsMulti: " &8• &7Mnoznik monet: &ax{MULTI}"
+  
+  JobLeft: "&cOpusciles prace: &e{JOB}"
+  JobLocked: "&cTa praca jest zablokowana! Potrzebujesz wyzszego poziomu!"
+  AlreadyJob: "&cJuz pracujesz jako: &e{JOB}&c!"
+  JobDelay: "&cMusisz poczekac jeszcze &e{SECONDS}s &cprzed zmiana pracy!"
+  JobSelected: "&aPomyslnie wybrano prace: &e{JOB}&a!"
+  
+  ChatGameTitle: "&6&l━━━━━━━━ &e&lGRA NA CHACIE &6&l━━━━━━━━"
+  ChatGameDesc: "&7Pierwszy gracz, ktory odpowie poprawnie, wygrywa!"
+  ChatGameAsk: "  &6&l{SPACEFIX}{NUM1} &e&l{SYMBOL} &6&l{NUM2} &e&l= &6&l?"
+  NobodyAnswer: "&c&lNikt nie odpowiedzial poprawnie!"
+  GoodAnswer: "&a&lGracz &e&l{PLAYER} &a&lodpowiedzial poprawnie!"
+  ChatGameRew: "&7Otrzymales: &6+{MONEY}$ &7oraz &d+{SHARDS} ◆"
+
+Utils2:
+  Vote:
+    Thanks: "&aD <##ff6b6b>Dziękujemy za głos, &e{PLAYER}&a!"
+  VoteParty:
+    1: "&6&l━━━━━━━━ &e&lVOTE PARTY &6&l━━━━━━━━"
+    2: "&7Osiągnięto &e50 głosów&7!"
+    3: "&7Wszyscy gracze otrzymują nagrody:"
+    4: "&e ● Klucz do skrzyń"
+    5: "&7Głosuj na serwer: <##6bb6ff><click:open_url:'{LINK}'>Kliknij tutaj</click>"
+  ClickVote: "&7Link do głosowania: <##6bb6ff><click:open_url:'{LINK}'>Kliknij tutaj</click>"
+  ClickDiscord: "&7Link do Discorda: <##6bb6ff><click:open_url:'{LINK}'>Kliknij tutaj</click>"
+  ClickKeys: "&7Link do sklepu: <##6bb6ff><click:open_url:'{LINK}'>Kliknij tutaj</click>"
+  MerchantRestock: "&6Merchant odnowił swój asortyment!"
+  Purchased: "&aPomyślnie zakupiono!"
+  NoReqItems: "&cNie masz wymaganych przedmiotów!"
+  
+  CoinflipNumber: "&cPodaj poprawną kwotę!"
+  CoinflipMinimum: "&cMinimalna kwota to 1000$!"
+  CoinflipAlready: "&cMasz już aktywny coinflip!"
+  CoinflipCreated: "&aPomyślnie utworzono coinflip!"
+  CantType: "&cNie możesz pisać podczas coinflipa!"
+  CoinFlipInfo:
+    1: "&6&lINFORMACJE O COINFLIP"
+    2: "&7Wpisz &e/coinflip <kwota> &7aby utworzyć grę"
+    3: "&7Minimalna kwota: &e1000$"
+  CoinFlipStarted: "&6Coinflip rozpoczęty z &e{PLAYER}&6!"
+  CoinFlipExpired: "&cTen coinflip już nie istnieje!"
+  CoinFlipYourself: "&cNie możesz grać sam ze sobą!"
+  CoinFlipWin:
+    1: "&a&lWYGRAŁEŚ COINFLIP!"
+    2: "&7Wygrałeś: &a+{MONEY}$"
+  CoinFlipLose:
+    1: "&c&lPRZEGRAŁEŚ COINFLIP!"
+    2: "&7Przegrałeś: &c-{MONEY}$"
+  
+  HomeTeleport: "&aTeleportowano do domu: &e{HOME}"
+  UnknownHome: "&cNieznany dom!"
+  HomeName: "&cPodaj nazwę domu!"
+  HomeLimit: "&cOsiągnąłeś limit domów!"
+  NameTooLong: "&cNazwa jest za długa! (max 20 znaków)"
+  HouseAlreadyExist: "&cDom o tej nazwie już istnieje!"
+  CantSetHome: "&cNie możesz ustawić domu w tym miejscu!"
+  HomeCreated: "&aPomyślnie utworzono dom: &e{HOME}"
+  UnsafePlace: "&cTo miejsce nie jest bezpieczne!"
+  HomeDeleted: "&aUsunięto dom: &e{HOME}"
+  
+  HelpNoMess: "&cMusisz podać wiadomość!"
+  SmallMess: "&cWiadomość musi mieć minimum 15 znaków!"
+  HelpOpWait: "&cMusisz poczekać minutę!"
+  HelpOp1: "&6&lHELP OP » {RANK}&f{PLAYER}"
+  HelpOp2: "&7Możesz również napisać na Discord: <##6bb6ff><click:open_url:'{LINK}'>Kliknij tutaj</click>"
+  HelpOp3: "&7Odpowiedz prywatnie: &e/msg {PLAYER}"
+  
+  GammaOn: "&aWłączono gamma!"
+  GammaOff: "&cWyłączono gamma!"
+  
+  StaffChatText: "&cPodaj wiadomość!"
+  
+  QuestsGUIName:
+    Default: "&f"
+  Quests:
+    Mining: "Górnictwo"
+    Farming: "Rolnictwo"
+    Fishing: "Rybactwo"
+    Chopping: "Drwalstwo"
+    Fighting: "Walka"
+    Enchanting: "Zaklinanie"
+    Building: "Budowanie"
+    Crafting: "Wytwarzanie"
+  QuestsSelect: "&6&l{TYPE}"
+  QuestsSelectLore:
+    - "&7Ukończone: &e{CURRENT}&7/&6{MAX}"
+    - ""
+    - "&e&lKLIKNIJ ABY ZOBACZYĆ"
+  QuestCompleted: "&aPomyślnie ukończono quest: &e{QUEST} {ID}"
+  QuestListGUIName:
+    Default: "&f"
+    Bedrock: "&f"
+  QuestListBack: 
+    ==: org.bukkit.inventory.ItemStack
+    v: 3837
+    type: BARRIER
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Powrót","color":"red"}'
+  QuestListNextPage:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3837
+    type: ARROW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Następna strona","color":"yellow"}'
+  QuestListPrevPage:
+    ==: org.bukkit.inventory.ItemStack
+    v: 3837
+    type: ARROW
+    meta:
+      ==: ItemMeta
+      meta-type: UNSPECIFIC
+      display-name: '{"text":"Poprzednia strona","color":"yellow"}'
+  QuestListStart: "&e&lKLIKNIJ ABY ROZPOCZĄĆ"
+  QuestListContinue: "&6&lKLIKNIJ ABY KONTYNUOWAĆ"
+  QuestListActive: "&a&lAKTYWNY QUEST"
+  QuestListClaim: "&a&lKLIKNIJ ABY ODEBRAĆ"
+  QuestListCompleted: "&7&lUKOŃCZONO"
+  QuestListItemClaim:
+    Name: "&6&l{QUEST} - {NAME} {TIER}"
+    Lore:
+      - "&7Cel: &f{OBJECTIVE}"
+      - "&7Postęp: &e{PROGRESS}"
+      - ""
+      - "&7Nagroda: &6+{MONEY}$"
+  QuestListItemCompleted:
+    Name: "&a&l{QUEST} - {NAME} {TIER}"
+    Lore:
+      - "&7Nagroda: &6+{MONEY}$"
+
+Utils3:
+  ClanHelp:
+    - "&6&l━━━━━━━━ &e&lKOMENDY KLANU &6&l━━━━━━━━"
+    - "&e/clan create <tag> &7- Utwórz klan"
+    - "&e/clan delete &7- Usuń klan"
+    - "&e/clan invite <gracz> &7- Zaproś gracza"
+    - "&e/clan join <tag> &7- Dołącz do klanu"
+    - "&e/clan leave &7- Opuść klan"
+    - "&e/clan kick <gracz> &7- Wyrzuć gracza"
+    - "&e/clan info [tag] &7- Informacje o klanie"
+    - "&e/clan color &7- Zmień kolor klanu"
+  EnterClanTag: "&cPodaj tag klanu!"
+  UnknownClan: "&cNieznany klan!"
+  TAGTooShort: "&cTag musi mieć minimum 3 znaki!"
+  TAGTooLong: "&cTag może mieć maksymalnie 4 znaki!"
+  TagExist: "&cKlan o tym tagu już istnieje!"
+  ClanCreated: "&aPomyślnie utworzono klan &e{CLAN}&a!"
+  AlreadyInClan: "&cJuż jesteś w klanie!"
+  ClanDeleted: "&cKlan został usunięty przez &e{PLAYER}"
+  ClanDeleted2: "&aPomyślnie usunięto klan!"
+  NoLeader: "&cNie jesteś liderem klanu!"
+  NoClan: "&cNie jesteś w żadnym klanie!"
+  Invited: "&aZaproszono gracza &e{PLAYER} &ado klanu!"
+  InviteReceived1: "&aOtrzymałeś zaproszenie do klanu &e{CLAN}&a!"
+  InviteReceived2: "&7Kliknij {TOOLTIP} &7aby dołączyć"
+  InviteTooltip: "&aKliknij aby dołączyć"
+  AlreadyInvited: "&cTen gracz już został zaproszony!"
+  PlayerOffline: "&cGracz jest offline!"
+  LimitReached: "&cOsiągnięto limit członków!"
+  LeaderCantLeave: "&cLider nie może opuścić klanu! Użyj /clan delete"
+  LeftClan: "&cOpuściłeś klan &e{CLAN}"
+  SomeoneLeft: "&cGracz &e{PLAYER} &copuścił klan"
+  JoinedClan: "&aDołączyłeś do klanu &e{CLAN}&a!"
+  SomeoneJoined: "&aGracz &e{PLAYER} &adołączył do klanu!"
+  NoInvite: "&cNie masz zaproszenia do tego klanu!"
+  Kicked: "&cZostałeś wyrzucony z klanu &e{CLAN}"
+  SomeoneKicked: "&cGracz &e{PLAYER} &czostał wyrzucony z klanu"
+  PlayerNotAdded: "&cTen gracz nie jest w twoim klanie!"
+  
+  EventName:
+    DoubleXp: "DoubleXP"
+    JobBoost: "JobBoost"
+  EventStart: "&aPomyślnie rozpoczęto event: &e{EVENT}"
+  EventStop: "&cZakończono event: &e{EVENT}"
+  EventActive: "&cTen event jest już aktywny!"
+  
+  UpgradeSuccess: "&aPomyślnie zakupiono ulepszenie!"
+  
+  ClickStore: "&7Link do sklepu: <##6bb6ff><click:open_url:'{LINK}'>Kliknij tutaj</click>"
+  
+  RanksJoinMessage: true
+  JoinMessage: "&e&l» {RANK}&r{PLAYER} &7dołączył do gry"
+  
+  Healed: "&aPomyślnie uleczono!"
+
+Utils4:
+  IslandGeneration: "&7Generowanie wyspy..."
+  IslandProgress: "&aPostęp: &e{PERCENT}%"
+  IslandDone: "&aPomyślnie wygenerowano wyspę!"
+  IslandDone2: "&a&lWYSPA GOTOWA!"
+  
+  WelcomeMess1: "&6&l━━━━━━━━ &e&lWITAJ NA NSSV &6&l━━━━━━━━"
+  WelcomeMess2: "&7Graczy online: &e{ONLINE}"
+  WelcomeMess3: "&7Discord: &b/discord"
+  WelcomeMess4: "&7Sklep: &6/store"
+  WelcomeMess5: "&7Komendy: &e/help"
+  WelcomeMess6: "&7Rangi: &6/rank"
+  WelcomeMess7: "&6&l━━━━━━━━━━━━━━━━━━━━━━━━━━━━"
+
+
+
+#  Homes:
+#    Default: "&f"
+#    NoHome:
+#      ==: org.bukkit.inventory.ItemStack
+#      v: 3837
+#      type: BARRIER
+#      meta:
+#        ==: ItemMeta
+#        meta-type: UNSPECIFIC
+#        display-name: '{"text":"Nie masz żadnych domów","color":"red"}'
+#        lore:
+#        - '{"text":"Użyj /sethome <nazwa> aby utworzyć dom","color":"gray"}'
+#    Home:
+#      ==: org.bukkit.inventory.ItemStack
+#      v: 3837
+#      type: RED_BED
+#      meta:
+#        ==: ItemMeta
+#        meta-type: UNSPECIFIC
+#        display-name: '{"text":"Dom: {NAME}","color":"yellow"}'
+#        lore:
+#        - '{"text":"Właściciel: {OWNER}","color":"gray"}'
+#        - '{"text":"Świat: {WORLD}","color":"gray"}'
+#        - '""'
+#        - '{"text":"LPM - Teleportuj","color":"green"}'
+#        - '{"text":"PPM - Usuń","color":"red"}'
+#  Merchant:
+#    Default: "&f"
+#    Confirm:
+#      ==: org.bukkit.inventory.ItemStack
+#      v: 3837
+#      type: LIME_STAINED_GLASS_PANE
+#      meta:
+#        ==: ItemMeta
+#        meta-type: UNSPECIFIC
+#        display-name: '{"text":"Potwierdź","color":"green","bold":true}'
+#        lore:
+#        - '{"text":"LPM - Kup 1x","color":"gray"}'
+#        - '{"text":"PPM - Kup wszystko","color":"gray"}'
+#  Coinflip:
+#    Default: "&f"
+#    Create:
+#      ==: org.bukkit.inventory.ItemStack
+#      v: 3837
+#      type: GOLD_NUGGET
+#      meta:
+#        ==: ItemMeta
+#        meta-type: UNSPECIFIC
+#        display-name: '{"text":"Utwórz Coinflip","color":"yellow","bold":true}'
+#        lore:
+#        - '{"text":"Kliknij aby dowiedzieć się więcej","color":"gray"}'
+#    Game: "&6&l{PLAYER}"
+#    GameLore:
+#      - "&7Gracz: &e{PLAYER}"
+#      - "&7Wartość: &6{VALUE}$"
+#      - ""
+#      - "&e&lKLIKNIJ ABY DOŁĄCZYĆ"
+#    NextPage:
+#      ==: org.bukkit.inventory.ItemStack
+#      v: 3837
+#      type: ARROW
+#      meta:
+#        ==: ItemMeta
+#        meta-type: UNSPECIFIC
+#        display-name: '{"text":"Następna strona","color":"yellow"}'
+#    PrevPage:
+#      ==: org.bukkit.inventory.ItemStack
+#      v: 3837
+#      type: ARROW
+#      meta:
+#        ==: ItemMeta
+#        meta-type: UNSPECIFIC
+#        display-name: '{"text":"Poprzednia strona","color":"yellow"}'
+
+
+GUIS:
+  Jobs:
+    Default: "&f"
+    NoJobGUIName: "&f"
+    NoJob:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3837
+      type: BARRIER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"Nie masz pracy","color":"red","bold":true}'
+        lore:
+          - '{"text":"Wybierz prace z listy powyzej","color":"gray"}'
+
+    NextPage:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3837
+      type: ARROW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"Nastepna strona","color":"yellow"}'
+
+    PrevPage:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3837
+      type: ARROW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"Poprzednia strona","color":"yellow"}'
+
+    Close:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3837
+      type: RED_STAINED_GLASS_PANE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"Zamknij","color":"red"}'
+
+    Leave:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3837
+      type: BARRIER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"Opusc prace","color":"red","bold":true}'
+
+    SelectJob: "&e&lKLIKNIJ ABY WYBRAC PRACE: &6{JOB}"
+    SelectedJob: "&a&lAKTUALNA PRACA"
+    JobName: "&6&l{JOB}"
+    JobLore:
+      - "&7Poziom: &e{LEVEL}"
+      - "&7Doswiadczenie: &a{EXP}&7/&e{REQ}"
+      - ""
+      - "&7Nagrody za wykonywanie zadan:"
+
+    JobLocked: "&c&lZABLOKOWANA: &6{JOB}"
+    JobLockedLore:
+      - "&7Wymagany poziom: &c{LEVEL}"
+
+    CurrentJob: "&6&lTWOJA AKTUALNA PRACA: &e{JOB}"
+    CurrentJobLore:
+      - "&7Poziom: &e{LEVEL}"
+      - "&7Doswiadczenie: &a{EXP}&7/&e{REQ}"
+      - "&7Mnoznik monet: &ax{MULTI}"
+
+    RewardName: "&6&lNagroda za poziom {LEVEL}"
+    RewardLore:
+      - "&7Osiagnij poziom &e{LEVEL} &7w pracy"
+      - "&e{JOB} &7aby odblokowac nagrode:"
+      - ""
+      - " &8• &6+{MONEY}$"
+
+    RewardLockName: "&c&lZablokowana nagroda (Poziom {LEVEL})"
+    RewardLockLore:
+      - "&7Osiagnij poziom &e{LEVEL} &7w pracy"
+      - "&e{JOB} &7aby odblokowac nagrode:"
+      - ""
+      - " &8• &6+{MONEY}$"
+
+    Miner:
+      - "Wykop blok kamienia: &a+1 XP"
+      - "Wykop rude: &a+3 XP"
+
+    Builder:
+      - "Postaw blok: &a+1 XP"
+
+    Farmer:
+      - "Posadz rosline: &a+1 XP"
+      - "Rozmnoz zwierze: &a+10 XP"
+
+    Lumberjack:
+      - "Posadz drzewko: &a+1 XP"
+      - "Scinij blok drewna: &a+2 XP"
+
+    Crafter:
+      - "Stworzenie przedmiotu: &a+5 XP"
+      - "Wypalenie przedmiotu: &a+15 XP"
+
+    Fisherman:
+      - "Zlapanie ryby: &a+5 XP"
+
+    Hunter:
+      - "Zabicie moba: &a+5 XP"
+
+    Enchanter:
+      - "Zaczarowanie przedmiotu: &a+25 XP"
+
+    Alchemist:
+      - "Uwarzenie mikstury: &a+3 XP"
+  Homes:
+    Default: "&f"
+    NoHome:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3837
+      type: BARRIER
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"Nie masz żadnych domów","color":"red"}'
+        lore:
+          - '{"text":"Użyj /sethome <nazwa> aby utworzyć dom","color":"gray"}'
+    Home:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3837
+      type: RED_BED
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"Dom: {NAME}","color":"yellow"}'
+        lore:
+          - '{"text":"Właściciel: {OWNER}","color":"gray"}'
+          - '{"text":"Świat: {WORLD}","color":"gray"}'
+          - '""'
+          - '{"text":"LPM - Teleportuj","color":"green"}'
+          - '{"text":"PPM - Usuń","color":"red"}'
+  Merchant:
+    Default: "&f"
+    Confirm:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3837
+      type: LIME_STAINED_GLASS_PANE
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"Potwierdź","color":"green","bold":true}'
+        lore:
+          - '{"text":"LPM - Kup 1x","color":"gray"}'
+          - '{"text":"PPM - Kup wszystko","color":"gray"}'
+  Coinflip:
+    Default: "&f"
+    Create:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3837
+      type: GOLD_NUGGET
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"Utwórz Coinflip","color":"yellow","bold":true}'
+        lore:
+          - '{"text":"Kliknij aby dowiedzieć się więcej","color":"gray"}'
+    Game: "&6&l{PLAYER}"
+    GameLore:
+      - "&7Gracz: &e{PLAYER}"
+      - "&7Wartość: &6{VALUE}$"
+      - ""
+      - "&e&lKLIKNIJ ABY DOŁĄCZYĆ"
+    NextPage:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3837
+      type: ARROW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"Następna strona","color":"yellow"}'
+    PrevPage:
+      ==: org.bukkit.inventory.ItemStack
+      v: 3837
+      type: ARROW
+      meta:
+        ==: ItemMeta
+        meta-type: UNSPECIFIC
+        display-name: '{"text":"Poprzednia strona","color":"yellow"}'
+  Upgrades:
+    Default: "&f"
+    Back:
+      ==: org.bukkit.inventory.ItemStack
+      type: BARRIER
+      meta:
+        display-name: '{"text":"Powrót","color":"red"}'
+    HopperLimit: "&6&lLimit Hopperów"
+    SpawnerLimit: "&6&lLimit Spawnerów"
+    IslandSize: "&6&lRozmiar Wyspy"
+    MembersLimit: "&6&lLimit Członków"
+    MinionsLimit: "&6&lLimit Minionów"
+    Upgrade:
+      - "&7Koszt: &6{COST}$"
+      - "&7Aktualnie: &e{FROM}"
+      - "&7Po zakupie: &a{TO}"
+      - ""
+      - "&e&lKLIKNIJ ABY KUPIĆ"
+    MaxLevel:
+      - "&a&lMAKSYMALNY POZIOM"
+  
+  Kits:
+    Default: "&f"
+    KitName: "&6&l{KIT}"
+    KitNames:
+      - "Jedzenie"
+      - "Default"
+      - "Gold"
+      - "Diamond"
+      - "Emerald"
+      - "Netherite"
+      - "Klucze"
+    Ranks:
+      - "Wszyscy"
+      - "Default+"
+      - "Gold+"
+      - "Diamond+"
+      - "Emerald+"
+      - "Netherite+"
+      - "Wszyscy"
+    KitLore:
+      - "&7Wymagana ranga: &e{RANK}"
+      - ""
+      - "&e&lKLIKNIJ ABY ODEBRAĆ"
+  
+  Ranks:
+    Default: "&f"
+    Lore:
+      - "&7Wykup rangę VIP na serwerze"
+      - "&7i zyskaj dostęp do ekskluzywnych"
+      - "&7funkcji i ulepszeń!"
+      - ""
+    RankIcons:
+      - "&6&lGOLD"
+      - "&b&lDIAMOND"
+      - "&a&lEMERALD"
+      - "&c&lNETHERITE"
+    Prefix:
+      - ""
+      - "&7Prefix: {RANKICON} &f{PLAYER}"
+      - ""
+      - "&e&lKLIKNIJ ABY WYKUPIĆ"
+    RankFeatures: "&7Funkcje:"
+    Features1:
+      - "Kit co 24h"
+      - "Dostęp do /heal"
+      - "+2 sloty na domy"
+    Features2:
+      - "Kit co 20h"
+      - "Dostęp do /heal"
+      - "+4 sloty na domy"
+      - "Kolorowy chat"
+    Features3:
+      - "Kit co 16h"
+      - "Dostęp do /heal"
+      - "+6 slotów na domy"
+      - "Kolorowy chat"
+      - "Własne emoji"
+    Features4:
+      - "Kit co 12h"
+      - "Dostęp do /heal"
+      - "+8 slotów na domy"
+      - "Kolorowy chat"
+      - "Własne emoji"
+      - "Priorytet w kolejce"
+  
+  Level:
+    Default: "&f"
+    NextPage:
+      ==: org.bukkit.inventory.ItemStack
+      type: ARROW
+      meta:
+        display-name: '{"text":"Następna strona","color":"yellow"}'
+    PrevPage:
+      ==: org.bukkit.inventory.ItemStack
+      type: ARROW
+      meta:
+        display-name: '{"text":"Poprzednia strona","color":"yellow"}'
